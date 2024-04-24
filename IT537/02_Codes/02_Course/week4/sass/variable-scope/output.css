@@ -1,0 +1,10 @@
+.class-1 {
+  font-size: another-local-value;
+  value: local-value;
+}
+
+.class-2 {
+  value: global-value;
+}
+
+/*# sourceMappingURL=output.css.map */

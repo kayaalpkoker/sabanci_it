@@ -1,0 +1,13 @@
+package edu.sabanciuniv.it524.variables;
+
+public class VariablesMain {
+
+	public static void main(String[] args) {
+
+		float x = 100.6f;
+		System.out.println(x);
+		
+		
+	}
+
+}

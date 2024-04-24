@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+    <style>
+        li { list-style: none; font-size: 2rem; }
+    </style>
+</head>
+<body>
+    <!--use two v-for loops to display all the contents of the basket-->
+    <div id="app">
+        <h1>In my basket:</h1>
+        <ul>
+          <li v-for="fruit in basket">
+            <span v-for="n in fruit.quantity">
+                {{fruit.type}}
+            </span>
+          </li>
+        </ul>
+      </div>
+        
+    <script type="module">
+
+        const { createApp } = Vue
+
+        createApp({
+        data() {
+            return {
+                basket: [
+                    { type: '🍌', quantity: 2 },
+                    { type: '🍎', quantity: 4 },
+                    { type: '🍒', quantity: 6 },
+                    { type: '🍉', quantity: 1 },
+                ]
+            }
+        }
+        }).mount('#app')
+    
+        </script>
+</body>
+</html>

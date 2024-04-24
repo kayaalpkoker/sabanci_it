@@ -1,0 +1,12 @@
+$variable: global-value;
+
+.class-1 {
+    $variable: local-value;
+    $another-variable: another-local-value;
+    font-size: $another-variable;
+    value: $variable
+}
+
+.class-2 {
+    value: $variable
+}

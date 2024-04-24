@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/kayaalpkoker/Desktop/Sabancı_IT-Master/IT524/02_Codes/.metadata/.plugins/org.eclipse.jdt.core
+3422697914.index
+798632340.index
+1865797976.index

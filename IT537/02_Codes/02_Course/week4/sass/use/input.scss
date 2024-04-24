@@ -1,0 +1,6 @@
+@use "parts/corners" as c;
+
+.button {
+    @include c.radius;
+    padding: 3px + c.$radius;
+}

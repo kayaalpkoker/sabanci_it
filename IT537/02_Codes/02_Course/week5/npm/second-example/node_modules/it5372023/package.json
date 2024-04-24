@@ -1,0 +1,17 @@
+{
+  "name": "it5372023",
+  "version": "1.0.2",
+  "description": "Our first package example",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "it537": "echo \"Hello IT537\"",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "it537"
+  ],
+  "author": "it537",
+  "license": "ISC"
+}

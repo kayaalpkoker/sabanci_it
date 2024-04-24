@@ -1,0 +1,1 @@
+console.log("This message come from external contact.js file..");

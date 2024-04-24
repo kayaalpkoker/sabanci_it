@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js - Intro</title>
+
+</head>
+<body>
+
+    <h1 id="car-description"></h1>
+
+    <script>
+        // var car = "Volvo XC40";
+        // document.getElementById('car-description').innerHTML = car;
+
+        // var car = {
+        //     brand: "Volvo",
+        //     model: "XC40",
+        //     series: "T5 AWD",
+        //     color: "white"
+        // };
+
+        // document.getElementById('car-description').innerHTML = car.brand+ " " +car.model + " " +car.series;
+
+
+        var car = {
+            brand: "Volvo",
+            model: "XC40",
+            series: "T5 AWD",
+            color: "white",
+            detail: function() {
+                return this.brand+ " " +this.model + " " +this.series;
+            }
+        };
+
+        document.getElementById('car-description').innerHTML = car.detail();
+
+        
+
+    </script>
+</body>
+</html>

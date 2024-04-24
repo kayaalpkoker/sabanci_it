@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <!--use v-if, v-else and v-else-if to alternate faces according to the temperature-->
+    <div id="app">
+        <blog-post :title="article.title" :content="article.content"></blog-post>
+    </div>
+        
+    <script type="module">
+
+        const { createApp } = Vue
+
+        createApp({
+        data() {
+            return { article: {
+                title:"F1 Miami Winner",
+                content: "Max Verstappen"
+            } }
+        }
+        }).mount('#app')
+    
+        </script>
+</body>
+</html>

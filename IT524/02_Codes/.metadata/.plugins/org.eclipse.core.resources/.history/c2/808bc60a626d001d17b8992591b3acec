@@ -1,0 +1,26 @@
+package edu.sabanciuniv.it524.variables;
+
+public class VariablesMain {
+
+	public static void main(String[] args) {
+		
+		//Primitive data types
+		byte a = 111;
+		short b = 121;
+		
+		int c = 22;
+		long d = 22222222222L;
+		
+		float e = 100.6f;
+		double f = 123.78d;
+		
+		boolean g = true;
+		char h = 'a';
+		
+		System.out.println(a,b);
+		
+		
+		
+	}
+
+}

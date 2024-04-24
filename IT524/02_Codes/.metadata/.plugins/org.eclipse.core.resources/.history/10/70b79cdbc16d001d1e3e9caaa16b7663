@@ -1,0 +1,32 @@
+package edu.sabanciuniv.it524;
+
+import java.util.Arrays;
+
+public class MainClass 
+{
+  public static void main(String[] args) 
+  {
+    int x = 5;
+    int y = 10;
+    int a = 1, b = 2, c = 3;
+    String d = "Tester", e = " Parfume";
+    char f = 'm';
+    
+    System.out.println(2*2); 
+    System.out.println("Wow");
+    System.out.println(x+y);
+    System.out.println(a+b+c);
+    System.out.println(d+e);
+    System.out.println(f);
+
+	String[] cars = {"Mercedes","BMW","Porsche"};
+	System.out.println(cars);
+	System.out.println(Arrays.toString(cars));
+	System.out.println(cars.length);
+	System.out.println(cars.getClass());
+
+	String car = "Mercedes";
+	System.out.println(car.charAt(4));
+
+  }
+}

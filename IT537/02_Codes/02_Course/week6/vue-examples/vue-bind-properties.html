@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <!--try to link the src and width attributes of the image-->
+    <div id="app">
+        <h1>
+            I {{likesVue ? "love" : "hate"}}
+            <img v-bind:src="logo" :width="logoWidth"/>
+        </h1>
+    </div>
+        
+    <script type="module">
+
+        const { createApp } = Vue
+
+        createApp({
+        data() {
+            return {
+                likesVue: true,
+                logo: 'https://vuejs.org/images/logo.png',
+                logoWidth: 50
+            }
+        }
+        }).mount('#app')
+    
+        </script>
+</body>
+</html>

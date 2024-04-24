@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a[_target] {
+    background-color : blue; 
+}
+
+p > strong > em {   
+    color : #ef12ff;
+}
+
+div.first+div{   
+    color : green;
+}
+/*
+#type_selectors
+ul li {   
+    list-style: square;
+}
+/*
+#id_selectors
+div#container {
+    text-align: right;
+}
+
+/*
+#class_selectors
+.sweden-style {
+    background-color: blue;
+    color: yellow;
+}
+*/
+/*
+#type_selectors
+h1, p {
+    background-color: blueviolet;
+}
+
+body {
+    background-color: antiquewhite;
+}
+*/

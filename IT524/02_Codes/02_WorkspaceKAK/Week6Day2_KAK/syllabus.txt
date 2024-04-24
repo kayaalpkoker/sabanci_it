@@ -1,0 +1,19 @@
+Java Basics
+Classes & Objects
+Constructors
+Composition
+Object Oriented Design Basics
+Encapsulation
+Inheritance
+Polymorphism
+Exception Handling
+Design Patterns (Singleton)
+static methods & variables
+final keyword
+File Reading
+File Writing
+Java Enum
+Collections (List , Set , Map)
+Generics
+Design Patterns (Observer)
+JDBC

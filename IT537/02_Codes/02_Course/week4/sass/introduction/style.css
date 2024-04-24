@@ -1,0 +1,13 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=style.css.map */

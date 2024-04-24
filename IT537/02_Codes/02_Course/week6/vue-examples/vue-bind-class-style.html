@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+    <style>
+        .car {
+            font-size: 60px;
+        }
+        .fast {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--assign a class and a color to each car-->
+    <div id="app">
+        <ol>
+            <li v-bind:style="car1.style">
+              <span class="car">🏎️</span>
+              I'm terrible and red
+            </li>
+            <li :class="car2.class">
+              <span class="car">🏎️</span>
+              I'm fast and blue
+            </li>
+          </ol>
+    </div>
+    
+        
+    <script type="module">
+
+        const { createApp } = Vue
+
+        createApp({
+        data() {
+            return {
+                car1: {
+                    style: "color: red"
+                },
+                car2: {
+                    class: "fast"
+                },
+            }
+        }
+        }).mount('#app')
+    
+        </script>
+</body>
+</html>

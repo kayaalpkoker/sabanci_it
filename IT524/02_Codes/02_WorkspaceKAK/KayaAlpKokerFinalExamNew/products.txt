@@ -1,0 +1,8 @@
+{ name : Pear , count : 131 }
+{ name : Apple , count : 125 }
+{ name : Peach , count : 543 }
+{ name : Banana , count : 498 }
+{ name : Orange , count : 667 }
+{ name : Lemon , count : 824 }
+{ name : Apple , count : 25 }
+{ name : Orange , count : 3 }

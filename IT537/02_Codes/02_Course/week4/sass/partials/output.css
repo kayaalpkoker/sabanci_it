@@ -1,0 +1,14 @@
+code {
+  padding: 10px;
+  line-height: 2em;
+}
+
+ul, ol {
+  text-align: left;
+}
+ul li, ol li {
+  padding-bottom: 3px;
+  padding-left: 2px;
+}
+
+/*# sourceMappingURL=output.css.map */

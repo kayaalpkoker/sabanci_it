@@ -1,0 +1,10 @@
+$variable: value1;
+
+.class-1 {
+    value: $variable
+}
+
+$variable: value2;
+.class-2 {
+    value: $variable
+}

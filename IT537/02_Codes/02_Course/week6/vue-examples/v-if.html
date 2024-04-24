@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <!--use v-if, v-else and v-else-if to alternate faces according to the temperature-->
+    <div id="app">
+        <input type="range" min="0" max="40" v-model="temperature" />
+        {{ temperature }} °C
+        <span v-if="temperature>28">🥵</span>
+        <span v-else-if="temperature<10">🥶</span>
+        <span v-else>😀</span>
+    </div>
+        
+    <script type="module">
+
+        const { createApp } = Vue
+
+        createApp({
+        data() {
+            return { temperature: 20 }
+        }
+        }).mount('#app')
+    
+        </script>
+</body>
+</html>

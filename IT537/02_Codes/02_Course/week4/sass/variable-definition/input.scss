@@ -1,0 +1,6 @@
+$default-color: #cd6378;
+$dark-border: rgba($default-color,0.8);
+
+.alert {
+    border: 1px solid $dark-border
+}
